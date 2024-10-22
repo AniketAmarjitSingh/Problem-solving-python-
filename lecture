@@ -1,1 +1,13 @@
-
+a=int(input("Entre your percentage"))
+print("Your percentage is", a)
+if(a>35):
+    print("You are passed")
+else:
+    print("Better luck next time")
+#Day 13
+#Strings are immutable(Will not change)
+a="ANiket"
+print(len(a))
+print(a)
+print(a.upper())
+print(a.lower())
